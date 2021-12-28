@@ -1,8 +1,8 @@
 {
-  "name-web":"STACKOVERFLOW MASKODING",
+  "name-web":"https://travel.arta-persada.com",
   "author":"MASKODING",
   "remove-comment-html":true,
-  "target":"https://m.tribunnews.com",
+  "target":"https://www.okezone.com/",
   "name-folder-sitemap":"sitemap",
   "element-remove":[
     "script",
@@ -69,7 +69,22 @@
     }
   ],
   "inject-element-head":[
-	{
+{
+      "name-element":"meta",
+      "data-attribute":[
+        {
+          "name-attribute":"name",
+          "value-attribute":"yandex-verification"
+        },
+        {
+          "name-attribute":"content",
+          "value-attribute":"e0e74b900ee7d58c"
+        }
+      ],
+      "data-innerHTML":"",
+      "position":"start"
+    },
+    {
       "name-element":"meta",
       "data-attribute":[
         {
@@ -78,12 +93,12 @@
         },
         {
           "name-attribute":"content",
-          "value-attribute":"bGd76ilj-qY3ZJwGdJ3W7qJko65x24b-AVx05o-rmnY"
+          "value-attribute":"i4wH1viz6ZihiMUd51tlUp5-19cPQ-gOIQG48BFNGVI"
         }
       ],
       "data-innerHTML":"",
       "position":"start"
-    	},
+    },
     {
       "name-element":"meta",
       "data-attribute":[
